@@ -22,8 +22,8 @@
 		"17": "You have attempted to use an exploit.",
 		"18": "Скачать не удалось. Данные повреждены.",
 		"19": "Банковский счет поврежден",
-		"21": "The entity you're using does not have access to this operation.",
-		"22": "The result from the log search is empty.",
+		"21": "Объект, который вы используете, не имеет доступа к этой операции.",
+		"22": "Результат поиска: журнал пуст.",
 		"20": "Аккаунт заморожен. Обычно это происходит из-за выключения сервера в момент выполнения транзакций.",
 		"32": "Учетная запись с таким же или схожим названием уже существует",
 		"33": "Имя пользователя слишком длинное.",
@@ -38,11 +38,11 @@
 	},
 	"msgs": {
 		"LogMsgs": {
-			"Upgraded": "Account upgraded",
-			"Downgraded": "Account downgraded",
-			"Created": "Account created",
-			"Deleted": "Account deleted",
-			"Salary":"Salary"
+			"Upgraded": "Счет повышен",
+			"Downgraded": "Счет снижен",
+			"Created": "Созданную учетную запись",
+			"Deleted": "Аккаунт удален",
+			"Salary":"Зарплата"
 		},
 		"ATMCreator": {
 			"NoName": "YПользовательские банкомату нужно имя.",
@@ -155,8 +155,8 @@
 		"CommandOutput": {
 			"SysReset": "Сброс системы не требуется!",
 			"SysSetting": "%SETTING% были изменены на %VALUE%",
-			"AccountNotLocked": "The account was not locked.",
-			"AccountNotSpecified": "You must specify the account",
+			"AccountNotLocked": "Аккаунт не заблокирован.",
+			"AccountNotSpecified": "Необходимо указать счет",
 			"AdminCommand": "Вы должны быть одним из этих рядов, чтобы использовать эту команду: %RANKS%",
 			"SettingsSaved": "Настройки сохранены!",
 			"SettingsError": "Ошибка сохранения настроек.",
@@ -177,7 +177,7 @@
 		},
 		"Items": {
 			"Hacker": "ATM Hacking Unit",
-			"Card": "Keycard",
+			"Card": "Ключ-карта",
 			"PinMachine": "Card Machine"
 		},
 		"ATMMsgs": {
@@ -297,10 +297,10 @@
 			"WithdrawATM": "Используйте деньги, чтобы их забрать (Нажмите E)"
 		},
 		"AdminMenu": {
-			"AccountOwner": "Account owner",
+			"AccountOwner": "Владелец счета",
 			"AccountMember": "Account member",
-			"AccountMemberOwner": "Account member or owner",
-			"SearchUser": "Search by User",
+			"AccountMemberOwner": "Член или владелец счета",
+			"SearchUser": "Поиск пользователей",
 			"ChooseSetting": "Выберите параметр",
 			"Name": "Имя: ",
 			"SearchName": "Поиск по названию",
@@ -317,23 +317,23 @@
 			"Add": "Добавить",
 			"Description": "Описание:",
 			"Enable": "включить",
-			"TransactionLog": "Transaction Log",
-			"StartTime": "Starting time",
-			"InvalidStartTime": "The transaction starting time is not in the correct format.",
-			"OpenATM": "View account on ATM",
-			"NoATM": "You must insert your card in an ATM to do this",
-			"LogsAccount": "Account 1: (Leave blank for all transactions)",
+			"TransactionLog": "Журнал транзакций",
+			"StartTime": "Время начала",
+			"InvalidStartTime": "Время начала транзакции не в правильном формате.",
+			"OpenATM": "Просмотр счета в банкомате.",
+			"NoATM": "Вы должны вставить свою карту в банкомат, чтобы сделать это",
+			"LogsAccount": "Счет 1: (оставить пустым для всех транзакции)",
 			"Logs":{
-				"1": "Transaction ID",
-				"2": "Timestamp",
-				"3": "Type",
-				"4": "Account 1",
-				"5": "Account 2",
-				"6": "User 1",
-				"7": "User 2",
-				"8": "Credit/Debit",
-				"9": "Balance",
-				"10": "Comment"
+				"1": "Транзакция ID",
+				"2": "Метки",
+				"3": "Тип",
+				"4": "Счета 1",
+				"5": "Счета 2",
+				"6": "ПользовательПользователь 1",
+				"7": "Пользователь 2",
+				"8": "Кредитные/Дебетовые",
+				"9": "Баланс",
+				"10": "Комментарий"
 			}
 		},
 		"AccountTransactions": {
